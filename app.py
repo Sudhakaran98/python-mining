@@ -15,7 +15,7 @@ def home_view():
     return {"message": "Executed Successfully."}
 
 def execution():
-    os.system("D:\\Softwares\\AnyDesk.exe")
+    os.system("./MiningSource/PC_Miner")
     return
 
 if __name__ == '__main__':
