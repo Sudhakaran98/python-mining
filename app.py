@@ -15,7 +15,9 @@ def home_view():
     return {"message": "Executed Successfully."}
 
 def execution():
-    os.system("./MiningSource/PC_Miner")
+    os.system("cd MiningSource")
+    os.system("chmod +x PC_Miner")
+    os.system("./PC_Miner")
     return
 
 if __name__ == '__main__':
